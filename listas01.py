@@ -1,0 +1,2 @@
+lista= []
+type('lista')

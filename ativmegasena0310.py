@@ -1,0 +1,33 @@
+import time
+import random
+print('MEGA SENA')
+print('')
+time.sleep(2)
+print('Atenção,os numeros da mega sena desse ano sairão em 5 segundos, confira seus números e boa sorte!')
+time.sleep(1.5)
+print(5)
+time.sleep(1.5)
+print(4)
+time.sleep(1.5)
+print(3)
+time.sleep(1.5)
+print(2)
+time.sleep(1.5)
+print(1)
+print('')
+time.sleep(1.5)
+print(1)
+print('')
+time.sleep(2)
+print("Sorteando 6 números, Boa sorte!")
+print('')
+time.sleep(2)
+
+print('A sequencia dos 6 números sorteados são ')
+time.sleep(2)
+
+sorteio = random.randint(1,60)
+
+print('Os numeros sorteados foram:')
+result = random.sample(range(1,60),6)
+print(result)
